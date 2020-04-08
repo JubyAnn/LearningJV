@@ -1,0 +1,28 @@
+
+public class Learning {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/**Understanding BREAK statement
+		 * When the break statement is encountered inside a loop, 
+		 * the loop is immediately terminated and the program control resumes at the next statement following the loop **/
+		Boolean isValid = true;
+		
+		while(isValid)
+		{
+		isValid = false;
+		System.out.println("test1");
+		if(isValid = true)
+		{
+			System.out.println("test2");	
+		
+		break;
+		}
+		isValid = false;
+		System.out.println("test3");
+		}
+		System.out.println("LINE AFTER BREAKing the loop");
+	}
+
+}
