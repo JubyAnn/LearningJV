@@ -1,0 +1,31 @@
+package string;
+
+/*
+ * toString() is an inbuilt method in Java which is used to return the String object representing 
+ * this Integer's value. Parameters: The method does not accept any parameters. 
+ * Return Value:The method returns the string object of the particular Integer value.
+ */
+
+public class StringMethods {
+	
+	int roll;
+	String name;
+	
+	StringMethods(int roll, String name)
+	{
+		this.roll = roll;
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringMethods sm = new StringMethods(10,"Shweta");
+		StringMethods sm1 = new StringMethods(20,"Tina");
+		
+		System.out.println(sm.name + " "+ sm.roll);
+		System.out.println(sm1.toString());
+		 
+		}
+
+}
