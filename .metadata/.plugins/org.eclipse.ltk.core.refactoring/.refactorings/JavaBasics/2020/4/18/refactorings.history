@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;string.StringMethods&apos; to &apos;Stringprogram&apos;&#x0A;- Original project: &apos;JavaBasics&apos;&#x0A;- Original element: &apos;string.StringMethods&apos;&#x0A;- Renamed element: &apos;string.Stringprogram&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringMethods&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;string{StringMethods.java[StringMethods" matchStrategy="1" name="Stringprogram" qualified="false" references="true" similarDeclarations="true" stamp="1588176462750" textual="true" version="1.0"/>
+</session>

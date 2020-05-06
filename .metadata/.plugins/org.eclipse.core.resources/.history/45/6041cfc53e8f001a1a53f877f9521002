@@ -1,0 +1,32 @@
+package string;
+
+//Object of String-Builder class represents a mutable character string whereas StringBuffer represents thread-safe
+//mutable character string.
+
+public class StringBuilderStudy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StringBuilder sb = new StringBuilder("Shivers ");
+		StringBuilder str = new StringBuilder(" Exams");
+		System.out.println(sb);
+		System.out.println(sb.append("Do not Disturb"));
+		
+		//string is mutable hence the string is updated
+		//Append Method
+		System.out.println(sb);
+		System.out.println(sb.append(str));
+		
+		//Insert Method
+		System.out.println(sb.insert(22," Take your time "));
+		System.out.println(sb.insert(4," Testing ",3, 4));
+		
+		//delete Method deletes substring begins with value in start and ends with (end - 1)
+		
+		StringBuilder tb = new StringBuilder("TestCulture ");
+		System.out.println(tb.delete(1, 4));
+
+	}
+
+}

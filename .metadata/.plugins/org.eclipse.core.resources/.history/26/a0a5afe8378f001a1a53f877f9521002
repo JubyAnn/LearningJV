@@ -1,0 +1,15 @@
+package string;
+
+//Object of String-Builder class represents a mutable character string whereas StringBuffer represents thread-safe
+//mutable character string.
+
+public class StringBuilder1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

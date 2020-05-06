@@ -1,0 +1,36 @@
+package string;
+
+public class StringMethods {
+	
+	//try this//public  void indexMethod(String str,char a)
+	public  int indexMethod(String str,char a)
+	{
+	 //try this//System.out.println(str.indexOf(a));
+		return str.indexOf(a);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+				/**** USING charAt() *****/
+		String pirateMessage = "  Buried Treasure Chest! ";
+		
+		StringMethods sm = new StringMethods();
+		
+		for(int i=0; i<=24 ; i++)
+		{
+			System.out.print(pirateMessage.charAt(i));
+		}
+		System.out.println("");
+		
+		//try this //sm.indexMethod("abcdefghssfsfsf", 'f')
+		System.out.print(sm.indexMethod("abcdefghssfsfsf", 'f'));	
+			
+		
+
+	}
+
+	
+	}
+
+

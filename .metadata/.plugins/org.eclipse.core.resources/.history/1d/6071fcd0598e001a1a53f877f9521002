@@ -1,0 +1,28 @@
+package string;
+
+public class StringMethods {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+				/**** USING charAt() *****/
+		String pirateMessage = "  Buried Treasure Chest! ";
+		
+		for(int i=0; i<=24 ; i++)
+		{
+			System.out.print(pirateMessage.charAt(i));
+		}
+		
+		//for(int i=0; i<=24 ; i++)
+		//{
+			System.out.print(pirateMessage.indexOf("e"));
+		//}
+
+	}
+
+	
+	}
+
+

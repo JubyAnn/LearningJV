@@ -1,0 +1,50 @@
+package string;
+
+public class StringMethods {
+	
+	/**find indexOf*ß*/
+	//try this//public  void indexMethod(String str,char a)
+	public  int indexMethod(String str,char a)
+	{
+	 //try this//System.out.println(str.indexOf(a));
+		return str.indexOf(a);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+				/**** USING charAt() *****/
+		String pirateMessage = "  Buried Treasure Chest! ";
+		String s = "";
+		
+		StringMethods sm = new StringMethods();
+		
+		for(int i=0; i<=24 ; i++)
+		{
+			System.out.print(pirateMessage.charAt(i));
+		}
+		System.out.println("");
+		
+		/**find indexOf**/
+		//try this //sm.indexMethod("abcdefghssfsfsf", 'f')
+		//try this /sm.indexMethod("abcdefghssfsfsf", 'f');
+		System.out.println(sm.indexMethod("abcdefghssfsfsf", 'f'));
+		
+		/**find length**/
+		System.out.println(pirateMessage.length());
+		
+		//Note: when array reference an instance variable in their state we use ".lenght" without brackets
+		
+		/**Concat is used to add a String at the end of another String. Append adds a String or 
+		 * character sequence to StringBufffer. Concat creates a new String object, whereas StringBuffer append doesn't. **/
+		
+		System.out.println(pirateMessage.concat("Can to print this !!!"));
+			
+		
+
+	}
+
+	
+	}
+
+
