@@ -1,0 +1,12 @@
+package PrimitivesEnumerationObjects;
+
+/**Help convert primitive to an object
+ * Integer, Double, Boolean, Character,Short,Byte,Long,Float**/
+public class Wrapperclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
